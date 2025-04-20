@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My GitHub Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-brand">
+                <a href="#" class="logo">Developer Portfolio</a>
+            </div>
+            <div class="navbar-menu" id="navMenu">
+                <ul class="navbar-links">
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+            <button class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container">
+            <h1>John Doe</h1>
+            <p>Full Stack Developer</p>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! I'm John, a passionate Full Stack Developer with over 5 years of experience creating modern web
+                applications. I specialize in JavaScript technologies (React, Node.js) and have a strong background in
+                building scalable, user-friendly solutions. I'm dedicated to writing clean, efficient code and
+                constantly learning new technologies to stay at the cutting edge of web development.</p>
+            <p>When I'm not coding, you can find me contributing to open-source projects, attending tech meetups, or
+                exploring hiking trails in my area.</p>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Frontend Development</h3>
+                    <ul>
+                        <li>JavaScript/TypeScript</li>
+                        <li>React & Redux</li>
+                        <li>HTML5 & CSS3</li>
+                        <li>Tailwind CSS</li>
+                        <li>Next.js</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend Development</h3>
+                    <ul>
+                        <li>Node.js & Express</li>
+                        <li>Python & Django</li>
+                        <li>RESTful APIs</li>
+                        <li>GraphQL</li>
+                        <li>MongoDB & PostgreSQL</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>DevOps & Tools</h3>
+                    <ul>
+                        <li>Git & GitHub</li>
+                        <li>Docker & Kubernetes</li>
+                        <li>AWS & Netlify</li>
+                        <li>CI/CD Pipelines</li>
+                        <li>Jest & Testing Library</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="section">
+        <div class="container">
+            <h2>Experience</h2>
+            <div class="experience-item">
+                <h3>Senior Full Stack Developer</h3>
+                <p class="company">TechInnovate Solutions, San Francisco</p>
+                <p class="period">Jan 2021 - Present</p>
+                <ul>
+                    <li>Lead a team of 5 developers in building a cloud-based SaaS platform for customer relationship
+                        management</li>
+                    <li>Architected and implemented microservices using Node.js, Express, and MongoDB</li>
+                    <li>Developed responsive and interactive frontend interfaces with React and Redux</li>
+                    <li>Implemented CI/CD pipelines reducing deployment time by 70%</li>
+                    <li>Mentored junior developers through code reviews and pair programming sessions</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3>Full Stack Developer</h3>
+                <p class="company">DataVision Tech, Austin</p>
+                <p class="period">Mar 2018 - Dec 2020</p>
+                <ul>
+                    <li>Designed and built RESTful APIs for data visualization applications</li>
+                    <li>Created dynamic dashboards using React and D3.js</li>
+                    <li>Optimized database queries improving application performance by 45%</li>
+                    <li>Collaborated with UX designers to improve user experience and accessibility</li>
+                    <li>Integrated third-party services via APIs including payment gateways and data providers</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3>Frontend Developer</h3>
+                <p class="company">WebCraft Studios, Seattle</p>
+                <p class="period">Jun 2016 - Feb 2018</p>
+                <ul>
+                    <li>Developed responsive websites for clients across various industries</li>
+                    <li>Implemented modern CSS frameworks and animations</li>
+                    <li>Optimized website performance and SEO</li>
+                    <li>Worked closely with design team to ensure pixel-perfect implementations</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>E-Commerce Platform</h3>
+                    <p>A full-stack e-commerce application built with the MERN stack (MongoDB, Express, React, Node.js).
+                        Features include user authentication, product search, shopping cart, payment processing, and
+                        order management.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/johndoe/ecommerce-platform" target="_blank"><i
+                                class="fab fa-github"></i> GitHub</a>
+                        <a href="https://ecommerce-demo.example.com" target="_blank"><i
+                                class="fas fa-external-link-alt"></i> Live Demo</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>Weather Dashboard</h3>
+                    <p>A React application that displays current weather and 5-day forecasts for any city. Uses
+                        OpenWeatherMap API, Leaflet for interactive maps, and Chart.js for temperature/precipitation
+                        visualizations.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/johndoe/weather-dashboard" target="_blank"><i
+                                class="fab fa-github"></i> GitHub</a>
+                        <a href="https://weather-app.example.com" target="_blank"><i
+                                class="fas fa-external-link-alt"></i> Live Demo</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>Task Management API</h3>
+                    <p>A RESTful API built with Node.js and Express for task management. Features user authentication
+                        with JWT, CRUD operations for tasks, categories, and priorities, with comprehensive
+                        documentation.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/johndoe/task-api" target="_blank"><i class="fab fa-github"></i>
+                            GitHub</a>
+                        <a href="https://task-api-docs.example.com" target="_blank"><i
+                                class="fas fa-external-link-alt"></i> Documentation</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>Portfolio Website</h3>
+                    <p>A responsive personal portfolio website (this site) built with HTML, CSS, and JavaScript.
+                        Features smooth scrolling, animations, and mobile-first design principles.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/johndoe/portfolio" target="_blank"><i class="fab fa-github"></i>
+                            GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="section">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="education-item">
+                <h3>Master of Computer Science</h3>
+                <p class="institution">Stanford University</p>
+                <p class="period">2014 - 2016</p>
+                <p>Specialized in Software Engineering and Artificial Intelligence. Graduated with honors. Key
+                    coursework included Advanced Algorithms, Machine Learning, and Distributed Systems.</p>
+            </div>
+            <div class="education-item">
+                <h3>Bachelor of Science in Computer Engineering</h3>
+                <p class="institution">University of Washington</p>
+                <p class="period">2010 - 2014</p>
+                <p>Graduated summa cum laude. Focused on software development and computer architecture. Completed a
+                    senior thesis on optimizing database query performance.</p>
+            </div>
+            <div class="education-item">
+                <h3>Certifications</h3>
+                <p class="institution">Professional Development</p>
+                <ul>
+                    <li>AWS Certified Solutions Architect</li>
+                    <li>Google Cloud Professional Developer</li>
+                    <li>MongoDB Certified Developer</li>
+                    <li>Certified Scrum Master</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact</h2>
+            <div class="contact-info">
+                <p><i class="fas fa-envelope"></i> john.doe@example.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> San Francisco, CA</p>
+                <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                <div class="social-links">
+                    <a href="https://github.com/johndoe" target="_blank" title="GitHub"><i
+                            class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/johndoe" target="_blank" title="LinkedIn"><i
+                            class="fab fa-linkedin"></i></a>
+                    <a href="https://twitter.com/johndoe" target="_blank" title="Twitter"><i
+                            class="fab fa-twitter"></i></a>
+                    <a href="https://dev.to/johndoe" target="_blank" title="Dev.to"><i class="fab fa-dev"></i></a>
+                    <a href="https://medium.com/@johndoe" target="_blank" title="Medium"><i
+                            class="fab fa-medium"></i></a>
+                </div>
+                <div class="contact-cta">
+                    <a href="mailto:john.doe@example.com" class="btn">Get In Touch</a>
+                    <a href="resume.pdf" class="btn btn-outline" download>Download Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 John Doe. All rights reserved.</p>
+            <p class="credits">Built with <i class="fas fa-heart"></i> using HTML, CSS, and JavaScript</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
