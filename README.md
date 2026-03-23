@@ -35,8 +35,8 @@ location: Egypt, Mansoura
 focus:
   - Enterprise Systems (NestJS, Prisma, MSSQL)
   - Web Applications (React, TypeScript)
-  - Mobile Apps (Flutter)
-  - Desktop Applications (Electron)
+  - Mobile Apps (Flutter, React Native)
+  - Desktop Applications (Electron, Rust)
   - Database Architecture (MSSQL, PostgreSQL, SQLite)
 philosophy: "Ship fast. Break nothing. Build everything."
 ```
@@ -89,10 +89,10 @@ philosophy: "Ship fast. Break nothing. Build everything."
 </td>
 <td align="center">
 <img src="https://img.shields.io/badge/Flutter-000?style=flat-square&logo=flutter&logoColor=02569b" /><br>
-<img src="https://img.shields.io/badge/Dart-000?style=flat-square&logo=dart&logoColor=0175c2" /><br>
+<img src="https://img.shields.io/badge/React_Native-000?style=flat-square&logo=react&logoColor=61dafb" /><br>
 <img src="https://img.shields.io/badge/Electron-000?style=flat-square&logo=electron&logoColor=47848f" /><br>
-<img src="https://img.shields.io/badge/Android-000?style=flat-square&logo=android&logoColor=3ddc84" /><br>
-<img src="https://img.shields.io/badge/iOS-000?style=flat-square&logo=apple&logoColor=fff" />
+<img src="https://img.shields.io/badge/Rust-000?style=flat-square&logo=rust&logoColor=dea584" /><br>
+<img src="https://img.shields.io/badge/Kotlin-000?style=flat-square&logo=kotlin&logoColor=7f52ff" />
 </td>
 <td align="center">
 <img src="https://img.shields.io/badge/MSSQL-000?style=flat-square&logo=microsoftsqlserver&logoColor=cc2927" /><br>
@@ -125,10 +125,7 @@ philosophy: "Ship fast. Break nothing. Build everything."
 <tr>
 <td width="50%">
 
-<h3>
-<img src="https://img.shields.io/badge/★-a855f7?style=flat-square" />
-<a href="https://github.com/yousef5/newWhatApp">MultiWhatsApp</a>
-</h3>
+<h3><a href="https://github.com/yousef5/newWhatApp">🟣 MultiWhatsApp</a></h3>
 
 Multi-account WhatsApp desktop client. Run unlimited accounts side by side with isolated sessions, desktop notifications, and cross-platform builds.
 
@@ -139,15 +136,12 @@ Multi-account WhatsApp desktop client. Run unlimited accounts side by side with 
 </td>
 <td width="50%">
 
-<h3>
-<img src="https://img.shields.io/badge/★-a855f7?style=flat-square" />
-<a href="https://github.com/yousef5/healthy-site">Healthy Zone Platform</a>
-</h3>
+<h3><a href="https://github.com/yousef5/healthy-empire-server">🟣 Healthy Empire</a></h3>
 
-Full-stack healthcare management platform with NestJS backend, React frontend, and comprehensive patient/pharmacy management features.
+Enterprise pharmacy management backend with Docker deployment, Mermaid architecture docs, and full business logic for the Healthy ecosystem.
 
 <img src="https://img.shields.io/badge/NestJS-e0234e?style=flat-square&labelColor=000" />
-<img src="https://img.shields.io/badge/React-61dafb?style=flat-square&labelColor=000" />
+<img src="https://img.shields.io/badge/Docker-2496ed?style=flat-square&labelColor=000" />
 <img src="https://img.shields.io/badge/TypeScript-3178c6?style=flat-square&labelColor=000" />
 
 </td>
@@ -155,10 +149,18 @@ Full-stack healthcare management platform with NestJS backend, React frontend, a
 <tr>
 <td width="50%">
 
-<h3>
-<img src="https://img.shields.io/badge/★-a855f7?style=flat-square" />
-<a href="https://github.com/yousef5/mercato-core">Mercato Core</a>
-</h3>
+<h3><a href="https://github.com/yousef5/healthy-site">🟣 Healthy Zone Platform</a></h3>
+
+Full-stack healthcare management platform with comprehensive patient and pharmacy management features.
+
+<img src="https://img.shields.io/badge/NestJS-e0234e?style=flat-square&labelColor=000" />
+<img src="https://img.shields.io/badge/React-61dafb?style=flat-square&labelColor=000" />
+<img src="https://img.shields.io/badge/TypeScript-3178c6?style=flat-square&labelColor=000" />
+
+</td>
+<td width="50%">
+
+<h3><a href="https://github.com/yousef5/mercato-core">🟣 Mercato Core</a></h3>
 
 E-commerce marketplace backend API with full product management, orders, payments, and multi-vendor support.
 
@@ -167,17 +169,26 @@ E-commerce marketplace backend API with full product management, orders, payment
 <img src="https://img.shields.io/badge/TypeScript-3178c6?style=flat-square&labelColor=000" />
 
 </td>
+</tr>
+<tr>
 <td width="50%">
 
-<h3>
-<img src="https://img.shields.io/badge/★-a855f7?style=flat-square" />
-Ehiaaa Platform
-</h3>
+<h3><a href="https://github.com/yousef5/myplan">🟣 MyPlan</a></h3>
 
-Full-stack web platform with separate <a href="https://github.com/yousef5/ehiaaa-front">frontend</a> and <a href="https://github.com/yousef5/ehiaaa-server">backend</a> repositories. Built with modern TypeScript stack.
+Personal planning and productivity app combining TypeScript frontend with Rust-powered backend for maximum performance.
 
-<img src="https://img.shields.io/badge/NestJS-e0234e?style=flat-square&labelColor=000" />
-<img src="https://img.shields.io/badge/React-61dafb?style=flat-square&labelColor=000" />
+<img src="https://img.shields.io/badge/TypeScript-3178c6?style=flat-square&labelColor=000" />
+<img src="https://img.shields.io/badge/Rust-dea584?style=flat-square&labelColor=000" />
+
+</td>
+<td width="50%">
+
+<h3><a href="https://github.com/yousef5/healthy-zone-desktop">🟣 Healthy Zone Desktop</a></h3>
+
+Desktop application for the Healthy Zone ecosystem built with Electron and Rust for native performance.
+
+<img src="https://img.shields.io/badge/Electron-47848f?style=flat-square&labelColor=000" />
+<img src="https://img.shields.io/badge/Rust-dea584?style=flat-square&labelColor=000" />
 <img src="https://img.shields.io/badge/TypeScript-3178c6?style=flat-square&labelColor=000" />
 
 </td>
@@ -207,35 +218,6 @@ Full-stack web platform with separate <a href="https://github.com/yousef5/ehiaaa
 ---
 
 <div align="center">
-
-### 💬 PHILOSOPHY
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│                                                             │
-│   "I DON'T JUST WRITE CODE.                              │
-│    I ARCHITECT SYSTEMS THAT SCALE,                          │
-│    DESIGN INTERFACES THAT INSPIRE,                          │
-│    AND BUILD PRODUCTS THAT PEOPLE LOVE."                    │
-│                                                             │
-│                                        — YOUSEF             │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
-```
-
-</div>
-
----
-
-<div align="center">
-
-### 📫 CONNECT
-
-<a href="https://github.com/yousef5">
-<img src="https://img.shields.io/badge/GITHUB-000?style=for-the-badge&logo=github&logoColor=fff" />
-</a>
-
-<br><br>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:a855f7,100:3b82f6&height=80&section=footer" width="100%">
 
