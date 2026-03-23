@@ -28,17 +28,17 @@
 ### `> whoami`
 
 ```yaml
-name: Yousef
+name: Mohammed Yousef Ali
 role: Full Stack Developer & System Architect
-location: Egypt
+company: Healthy Pharma
+location: Egypt, Mansoura
 focus:
+  - Enterprise Systems (NestJS, Prisma, MSSQL)
+  - Web Applications (React, TypeScript)
+  - Mobile Apps (Flutter)
   - Desktop Applications (Electron)
-  - Web Applications (React/Next.js)
-  - Backend Systems (Node.js/Bun)
-  - Database Architecture (SQL/NoSQL)
-  - System Design & DevOps
+  - Database Architecture (MSSQL, PostgreSQL, SQLite)
 philosophy: "Ship fast. Break nothing. Build everything."
-currently_building: MultiWhatsApp
 ```
 
 </td>
@@ -68,31 +68,31 @@ currently_building: MultiWhatsApp
 <tr>
 <td align="center"><b>FRONTEND</b></td>
 <td align="center"><b>BACKEND</b></td>
-<td align="center"><b>DESKTOP</b></td>
+<td align="center"><b>MOBILE & DESKTOP</b></td>
 <td align="center"><b>DATABASE</b></td>
 <td align="center"><b>DEVOPS</b></td>
 </tr>
 <tr>
 <td align="center">
 <img src="https://img.shields.io/badge/React-000?style=flat-square&logo=react&logoColor=61dafb" /><br>
-<img src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs&logoColor=fff" /><br>
 <img src="https://img.shields.io/badge/TypeScript-000?style=flat-square&logo=typescript&logoColor=3178c6" /><br>
 <img src="https://img.shields.io/badge/Tailwind-000?style=flat-square&logo=tailwindcss&logoColor=06b6d4" /><br>
-<img src="https://img.shields.io/badge/Vue.js-000?style=flat-square&logo=vuedotjs&logoColor=4fc08d" />
+<img src="https://img.shields.io/badge/Vite-000?style=flat-square&logo=vite&logoColor=646cff" /><br>
+<img src="https://img.shields.io/badge/HTML%2FCSS-000?style=flat-square&logo=html5&logoColor=e34f26" />
 </td>
 <td align="center">
+<img src="https://img.shields.io/badge/NestJS-000?style=flat-square&logo=nestjs&logoColor=e0234e" /><br>
 <img src="https://img.shields.io/badge/Node.js-000?style=flat-square&logo=nodedotjs&logoColor=339933" /><br>
 <img src="https://img.shields.io/badge/Bun-000?style=flat-square&logo=bun&logoColor=fbf0df" /><br>
-<img src="https://img.shields.io/badge/Express-000?style=flat-square&logo=express&logoColor=fff" /><br>
-<img src="https://img.shields.io/badge/Python-000?style=flat-square&logo=python&logoColor=3776ab" /><br>
+<img src="https://img.shields.io/badge/Prisma-000?style=flat-square&logo=prisma&logoColor=2d3748" /><br>
 <img src="https://img.shields.io/badge/REST_API-000?style=flat-square&logo=fastapi&logoColor=009688" />
 </td>
 <td align="center">
+<img src="https://img.shields.io/badge/Flutter-000?style=flat-square&logo=flutter&logoColor=02569b" /><br>
+<img src="https://img.shields.io/badge/Dart-000?style=flat-square&logo=dart&logoColor=0175c2" /><br>
 <img src="https://img.shields.io/badge/Electron-000?style=flat-square&logo=electron&logoColor=47848f" /><br>
-<img src="https://img.shields.io/badge/Vite-000?style=flat-square&logo=vite&logoColor=646cff" /><br>
-<img src="https://img.shields.io/badge/Webpack-000?style=flat-square&logo=webpack&logoColor=8dd6f9" /><br>
-<img src="https://img.shields.io/badge/PWA-000?style=flat-square&logo=pwa&logoColor=5a0fc8" /><br>
-<img src="https://img.shields.io/badge/WebView-000?style=flat-square&logo=googlechrome&logoColor=4285f4" />
+<img src="https://img.shields.io/badge/Android-000?style=flat-square&logo=android&logoColor=3ddc84" /><br>
+<img src="https://img.shields.io/badge/iOS-000?style=flat-square&logo=apple&logoColor=fff" />
 </td>
 <td align="center">
 <img src="https://img.shields.io/badge/MSSQL-000?style=flat-square&logo=microsoftsqlserver&logoColor=cc2927" /><br>
@@ -117,37 +117,68 @@ currently_building: MultiWhatsApp
 
 <div align="center">
 
-### 🏗️ FEATURED PROJECT
+### 🏗️ FEATURED PROJECTS
 
 </div>
 
 <table>
 <tr>
-<td width="100%">
+<td width="50%">
 
 <h3>
 <img src="https://img.shields.io/badge/★-a855f7?style=flat-square" />
 <a href="https://github.com/yousef5/newWhatApp">MultiWhatsApp</a>
-— Multi-Account WhatsApp Desktop Client
 </h3>
 
-```
-Run unlimited WhatsApp accounts side by side in one desktop app.
-Full WhatsApp Web experience — chats, media, calls, notifications.
-```
+Multi-account WhatsApp desktop client. Run unlimited accounts side by side with isolated sessions, desktop notifications, and cross-platform builds.
 
-<img src="https://img.shields.io/badge/Electron-41-47848f?style=flat-square&labelColor=000" />
-<img src="https://img.shields.io/badge/React-19-61dafb?style=flat-square&labelColor=000" />
-<img src="https://img.shields.io/badge/TypeScript-5-3178c6?style=flat-square&labelColor=000" />
-<img src="https://img.shields.io/badge/Tailwind-4-06b6d4?style=flat-square&labelColor=000" />
-<img src="https://img.shields.io/badge/Platform-Linux%20%7C%20Win%20%7C%20Mac-22c55e?style=flat-square&labelColor=000" />
+<img src="https://img.shields.io/badge/Electron-47848f?style=flat-square&labelColor=000" />
+<img src="https://img.shields.io/badge/React-61dafb?style=flat-square&labelColor=000" />
+<img src="https://img.shields.io/badge/TypeScript-3178c6?style=flat-square&labelColor=000" />
 
-**Key Features:**
-- ∞ Unlimited WhatsApp accounts in one window
-- 🔒 Isolated sessions per account (separate cookies/storage)
-- 🔔 Desktop notifications for all accounts
-- 🎨 Brutalism dark UI with custom avatars
-- 📦 Cross-platform builds (AppImage, DEB, EXE, DMG, Pacman)
+</td>
+<td width="50%">
+
+<h3>
+<img src="https://img.shields.io/badge/★-a855f7?style=flat-square" />
+<a href="https://github.com/yousef5/healthy-site">Healthy Zone Platform</a>
+</h3>
+
+Full-stack healthcare management platform with NestJS backend, React frontend, and comprehensive patient/pharmacy management features.
+
+<img src="https://img.shields.io/badge/NestJS-e0234e?style=flat-square&labelColor=000" />
+<img src="https://img.shields.io/badge/React-61dafb?style=flat-square&labelColor=000" />
+<img src="https://img.shields.io/badge/TypeScript-3178c6?style=flat-square&labelColor=000" />
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+<h3>
+<img src="https://img.shields.io/badge/★-a855f7?style=flat-square" />
+<a href="https://github.com/yousef5/mercato-core">Mercato Core</a>
+</h3>
+
+E-commerce marketplace backend API with full product management, orders, payments, and multi-vendor support.
+
+<img src="https://img.shields.io/badge/NestJS-e0234e?style=flat-square&labelColor=000" />
+<img src="https://img.shields.io/badge/Prisma-2d3748?style=flat-square&labelColor=000" />
+<img src="https://img.shields.io/badge/TypeScript-3178c6?style=flat-square&labelColor=000" />
+
+</td>
+<td width="50%">
+
+<h3>
+<img src="https://img.shields.io/badge/★-a855f7?style=flat-square" />
+Ehiaaa Platform
+</h3>
+
+Full-stack web platform with separate <a href="https://github.com/yousef5/ehiaaa-front">frontend</a> and <a href="https://github.com/yousef5/ehiaaa-server">backend</a> repositories. Built with modern TypeScript stack.
+
+<img src="https://img.shields.io/badge/NestJS-e0234e?style=flat-square&labelColor=000" />
+<img src="https://img.shields.io/badge/React-61dafb?style=flat-square&labelColor=000" />
+<img src="https://img.shields.io/badge/TypeScript-3178c6?style=flat-square&labelColor=000" />
 
 </td>
 </tr>
@@ -182,7 +213,7 @@ Full WhatsApp Web experience — chats, media, calls, notifications.
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │                                                             │
-│   "I DON'T JUST WRITE CODE.                                │
+│   "I DON'T JUST WRITE CODE.                              │
 │    I ARCHITECT SYSTEMS THAT SCALE,                          │
 │    DESIGN INTERFACES THAT INSPIRE,                          │
 │    AND BUILD PRODUCTS THAT PEOPLE LOVE."                    │
